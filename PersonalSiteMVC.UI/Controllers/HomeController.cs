@@ -13,17 +13,23 @@ namespace PersonalSiteMVC.UI.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
+        public ActionResult Resume()
+        {          
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Portfolio()
         {
-            ViewBag.Message = "Your contact page.";
+            return View();
+        }
 
+        public ActionResult Team()
+        {
+            return View();
+        }
+
+        public ActionResult ContactUs()
+        {
             return View();
         }
     }

@@ -1,31 +1,106 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Home";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<section class="home_banner_area">
+    <div class="container box_1620">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="banner_content">
+                <div class="media">
+                    <div class="d-flex">
+                        <img src="~/Content/img/personal.jpg" />
+                    </div>
+                    <div class="media-body">
+                        <div class="personal_text">
+                            <h6>Hello Everybody, i am</h6>
+                            <h3>Don Richardson</h3>
+                            <h4>Full Stack Web Developer</h4>
+                            <p>Do or do not, there is no try. - Yoda</p>
+                            <ul class="list basic_info">
+                                <li><a href="#">Movie Connoisseurs</a></li>
+                                <li><a href="#">Always Building Something</a></li>
+                                <li><a href="#">Kansas City, MO</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+</section>
+<!--================End Home Banner Area =================-->
+<!--================Welcome Area =================-->
+<section class="welcome_area p_120">
+    <div class="container">
+        <div class="row welcome_inner">
+            <div class="col-lg-6">
+                <div class="welcome_text">
+                    <h4>About Myself</h4>
+                    <p>I am born and raised in San Diego, CA then went to school at the University of Kansas cause the weather was better. Majored in Film and Media Studies which led me to work on multiple TV shows on the Cooking Channel. Once I was over the Hollywood life I moved back to Kansas City and got innvolved in banking where my life really got interesting. Worked in numerous departments honing my professional skills. After I had my fill of banking I quit my job, got married, and started web development school all in the same month. Figured I didn't have enough stress in my life so decided to add a little bit more. In my free time I enjoy catching up on the latest Marvel movie, playing with my dog, bugging my wife or working on some new project in my workshop that I try to covince my wife requires a new tool in order for me to finish it.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="tools_expert">
+                    <div class="skill_main">
+                        <div class="skill_item">
+                            <h4>Visual Studio 2017 <span class="counter">95</span>%</h4>
+                            <div class="progress_br">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill_item">
+                            <h4>GitHub <span class="counter">90</span>%</h4>
+                            <div class="progress_br">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill_item">
+                            <h4>Microsoft SQL Server Managerment <span class="counter">70</span>%</h4>
+                            <div class="progress_br">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill_item">
+                            <h4>HTML <span class="counter">80</span>%</h4>
+                            <div class="progress_br">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill_item">
+                            <h4>CSS <span class="counter">75</span>%</h4>
+                            <div class="progress_br">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill_item">
+                            <h4>C# <span class="counter">70</span>%</h4>
+                            <div class="progress_br">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill_item">
+                            <h4>MVC Conversion/Razor <span class="counter">60</span>%</h4>
+                            <div class="progress_br">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+</section>
