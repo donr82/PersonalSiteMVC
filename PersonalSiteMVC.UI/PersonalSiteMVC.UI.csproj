@@ -124,6 +124,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -466,19 +467,6 @@
     <Content Include="Content\css\style.css.map" />
     <Content Include="Content\img\.DS_Store" />
     <Content Include="Content\img\elements\_DS_Store" />
-    <Content Include="Content\scss\_blog.scss" />
-    <Content Include="Content\scss\_button.scss" />
-    <Content Include="Content\scss\_contact.scss" />
-    <Content Include="Content\scss\_elements.scss" />
-    <Content Include="Content\scss\_feature.scss" />
-    <Content Include="Content\scss\_footer.scss" />
-    <Content Include="Content\scss\_gallery.scss" />
-    <Content Include="Content\scss\_header.scss" />
-    <Content Include="Content\scss\_predefine.scss" />
-    <Content Include="Content\scss\_testimonials.scss" />
-    <Content Include="Content\scss\_variables.scss" />
-    <Content Include="Content\scss\breadcrumb.scss" />
-    <Content Include="Content\scss\style.scss" />
     <Content Include="Content\vendors\.DS_Store" />
     <Content Include="Content\vendors\flaticon\_flaticon.css.map" />
     <Content Include="Content\vendors\flaticon\_flaticon.scss" />
@@ -490,6 +478,7 @@
     <Content Include="Content\vendors\linericon\fonts\Linearicons-Free.woff" />
     <Content Include="Content\vendors\linericon\fonts\Linearicons-Free.woff2" />
     <Content Include="Content\Documents\Don Richardson Resume IT.pdf" />
+    <Content Include="configs\AppSecretKeys.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -560,10 +549,11 @@
     <Content Include="Views\Home\Portfolio.cshtml" />
     <Content Include="Views\Home\Team.cshtml" />
     <Content Include="_Archive\Documents\Don Richardson Resume IT.pdf" />
+    <Content Include="Views\Home\ContactExample.cshtml" />
+    <Content Include="Views\Home\EmailConfirmation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
