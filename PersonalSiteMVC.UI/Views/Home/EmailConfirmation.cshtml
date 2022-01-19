@@ -4,9 +4,32 @@
     ViewBag.Title = "Email Confirmation";
 }
 
-<h2>@ViewBag.Title</h2>
 
-<h4>I have received the following message:</h4>
-<p>@Model.Message</p>
-<h4>I will respond as soon as we can to '@Model.Message'. Thank you for contacting me!</h4>
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+    <div class="box_1620">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="container">
+                <div class="banner_content text-center">
+                    <h2>Contact Me</h2>
+                    <div class="page_link">
+                        <a href="index.html">Home</a>
+                        <a href="contact.html">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+<!--================Contact Area =================-->
+<div style="text-align: center">
+    <h2 style="color: black">@ViewBag.Title</h2>
 
+    <h4 style="color: black">I have received the following message:</h4>
+    <p>@Model.Message</p>
+    <h4 style="color: black">I will respond as soon as we can to '@Model.Message'. Thank you for contacting me!</h4>
+</div>
+<br />
+<br />
+<!--================Contact Area =================-->
