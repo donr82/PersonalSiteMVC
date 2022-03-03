@@ -48,7 +48,7 @@ namespace PersonalSiteMVC.UI.Controllers
             //build the message
             string message = $"You have received an email from {cvm.Name} with a subject of {cvm.Subject}. Please respond to {cvm.Email} with your response to the following message: <br/>{cvm.Message}";
             //MailMessage - What sends the email
-            MailMessage mm = new MailMessage("admin@don-richardson.com", "donr82@sbcglobal.net", cvm.Subject, message);
+            MailMessage mm = new MailMessage(ConfigurationManager.AppSettings["EmailUser"].ToString(), ConfigurationManager.AppSettings[ "EmailTo"].ToString(), cvm.Subject, message);
 
             //MailMessage properties
             //Allow HTML in the email
